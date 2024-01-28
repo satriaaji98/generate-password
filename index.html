@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+        <h1>
+            Password Generator Coba
+        </h1>
+        <label for="lengthpassword" class="text-uppercase fw-bold">panjang password</label>
+        <input class="form-control form-control-lg"  id="lengthpassword" type="number">
+
+        <label for="password" class="text-uppercase fw-bold">password</label>
+        <input class="form-control form-control-lg" id="password" >
+
+        <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2" onclick="getpassword()">generate password</button>
+        <button class="btn btn-primary text-uppercase fw-bold btn-lg mt-2" onclick="savepassword()">save password</button>
+    </div>
+    <script src="index.js" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"></script>
+</body>
+</html>
